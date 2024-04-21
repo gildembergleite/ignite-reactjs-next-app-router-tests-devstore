@@ -1,5 +1,6 @@
 import { env } from '@/env'
 
+// eslint-disable-next-line no-undef
 export function api(path: string, init?: RequestInit) {
   const baseUrl = env.NEXT_PUBLIC_API_BASE_URL
   const apiPrefix = '/api'
